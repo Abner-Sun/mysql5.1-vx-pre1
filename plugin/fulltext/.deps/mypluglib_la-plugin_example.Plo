@@ -1,0 +1,14 @@
+mypluglib_la-plugin_example.lo mypluglib_la-plugin_example.o:  \
+ plugin_example.c \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/stdlib.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/yvals.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/ctype.h \
+  ../../include/mysql/plugin.h
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/stdlib.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/yvals.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/ctype.h:
+
+../../include/mysql/plugin.h:

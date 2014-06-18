@@ -1,0 +1,31 @@
+wcsdup.o wcsdup.o: np/wcsdup.c config.h ../../include/my_config.h sys.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/cdefs.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/stdio.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/yvals.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/wchar.h \
+  /home/sfh/vx68_mysql/WindRiver68/gnu/4.1.2-vxworks-6.8/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.1.2/include/stdarg.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/wctype.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/stdlib.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/assert.h
+
+config.h:
+
+../../include/my_config.h:
+
+sys.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/cdefs.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/stdio.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/yvals.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/wchar.h:
+
+/home/sfh/vx68_mysql/WindRiver68/gnu/4.1.2-vxworks-6.8/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.1.2/include/stdarg.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/wctype.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/stdlib.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/assert.h:

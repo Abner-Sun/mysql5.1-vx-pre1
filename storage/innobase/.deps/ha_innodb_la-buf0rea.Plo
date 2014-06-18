@@ -1,0 +1,655 @@
+ha_innodb_la-buf0rea.lo ha_innodb_la-buf0rea.o: buf/buf0rea.c \
+  ../../storage/innobase/include/buf0rea.h \
+  ../../storage/innobase/include/univ.i ../../include/my_global.h \
+  ../../include/my_config.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/pthread.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/unistd.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/unistd.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_ssize_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_size_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_uid_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_gid_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pid_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_off_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_suseconds_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/gnu/4.1.2-vxworks-6.8/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.1.2/include-fixed/limits.h \
+  /home/sfh/vx68_mysql/WindRiver68/gnu/4.1.2-vxworks-6.8/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.1.2/include-fixed/syslimits.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/limits.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxANSI.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxCpu.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxCpuX.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxCpuXp.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxCpuXf.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxArch.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/arch/i86/archI86.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/arch/i86/archI86Common.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxParams.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxTypesBase.h \
+  /home/sfh/vx68_mysql/WindRiver68/gnu/4.1.2-vxworks-6.8/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.1.2/include/stddef.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/tool/gnu/limits.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/semLib.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/vxWorks.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/vxWorksCommon.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxTypes.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_cpuset_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_atomic_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_dev_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_ino_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_mode_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_nlink_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_blksize_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_blkcnt_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxTypesOld.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/e_vxTypesOld.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/types.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_attr_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_struct__Sched_param.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_struct__Timespec.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_time_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_clock_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_key_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_timer_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_clockid_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_cond_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxWind.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxWindCommon.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_condattr_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_mutex_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_mutexattr_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_key_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_once_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_BOOL.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_trace_attr_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_trace_id_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_trace_event_id_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_trace_event_set_t.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/tool/gnu/toolMacros.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/tool/common/private/toolMacrosP.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/semLibCommon.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/vxWorks.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/vwModNum.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/objLib.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/objLibCommon.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/vwModNum.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/objSysCall.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/semSysCall.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/time.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/yvals.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sched.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_struct_sched_param.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_struct_timespec.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/pthreadCommon.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/cdefs.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/stdio.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/stdlib.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/math.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/ymath.h \
+  /home/sfh/vx68_mysql/WindRiver68/gnu/4.1.2-vxworks-6.8/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.1.2/include/float.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/fenv.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/fcntl.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/fcntlcom.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/time.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_struct_timeval.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_struct_itimerval.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/select.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/signal.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sigevent.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sigeventCommon.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_union_sigval.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/errno.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxANSI.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/assert.h \
+  ../../include/my_compiler.h ../../include/my_attribute.h \
+  ../../include/my_dbug.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/wrn/coreip/sys/socket.h \
+  ../../include/my_pthread.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/stat.h \
+  ../../include/config.h ../../storage/innobase/include/ut0dbg.h \
+  ../../storage/innobase/include/os0thread.h \
+  ../../storage/innobase/include/os0thread.ic \
+  ../../storage/innobase/include/ut0ut.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/ctype.h \
+  ../../storage/innobase/include/ut0ut.ic \
+  ../../storage/innobase/include/db0err.h \
+  ../../storage/innobase/include/buf0types.h \
+  ../../storage/innobase/include/fil0fil.h \
+  ../../storage/innobase/include/sync0rw.h \
+  ../../storage/innobase/include/ut0lst.h \
+  ../../storage/innobase/include/sync0sync.h \
+  ../../storage/innobase/include/sync0types.h \
+  ../../storage/innobase/include/ut0mem.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/string.h \
+  ../../storage/innobase/include/ut0mem.ic \
+  ../../storage/innobase/include/os0sync.h \
+  ../../storage/innobase/include/os0sync.ic \
+  ../../storage/innobase/include/sync0arr.h \
+  ../../storage/innobase/include/sync0arr.ic \
+  ../../storage/innobase/include/sync0sync.ic \
+  ../../storage/innobase/include/sync0rw.ic \
+  ../../storage/innobase/include/dict0types.h \
+  ../../storage/innobase/include/ibuf0types.h \
+  ../../storage/innobase/include/ut0byte.h \
+  ../../storage/innobase/include/ut0byte.ic \
+  ../../storage/innobase/include/os0file.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/dirent.h \
+  ../../storage/innobase/include/mtr0mtr.h \
+  ../../storage/innobase/include/mem0mem.h \
+  ../../storage/innobase/include/ut0rnd.h \
+  ../../storage/innobase/include/ut0rnd.ic \
+  ../../storage/innobase/include/mach0data.h \
+  ../../storage/innobase/include/mach0data.ic \
+  ../../storage/innobase/include/mem0dbg.h \
+  ../../storage/innobase/include/mem0mem.ic \
+  ../../storage/innobase/include/mem0dbg.ic \
+  ../../storage/innobase/include/mem0pool.h \
+  ../../storage/innobase/include/mem0pool.ic \
+  ../../storage/innobase/include/dyn0dyn.h \
+  ../../storage/innobase/include/dyn0dyn.ic \
+  ../../storage/innobase/include/mtr0types.h \
+  ../../storage/innobase/include/page0types.h \
+  ../../storage/innobase/include/mtr0mtr.ic \
+  ../../storage/innobase/include/buf0buf.h \
+  ../../storage/innobase/include/fil0fil.h \
+  ../../storage/innobase/include/hash0hash.h \
+  ../../storage/innobase/include/hash0hash.ic \
+  ../../storage/innobase/include/os0proc.h \
+  ../../storage/innobase/include/os0proc.ic \
+  ../../storage/innobase/include/buf0buf.ic \
+  ../../storage/innobase/include/buf0flu.h \
+  ../../storage/innobase/include/buf0flu.ic \
+  ../../storage/innobase/include/buf0buf.h \
+  ../../storage/innobase/include/mtr0mtr.h \
+  ../../storage/innobase/include/buf0lru.h \
+  ../../storage/innobase/include/buf0lru.ic \
+  ../../storage/innobase/include/buf0rea.h \
+  ../../storage/innobase/include/buf0flu.h \
+  ../../storage/innobase/include/buf0lru.h \
+  ../../storage/innobase/include/ibuf0ibuf.h \
+  ../../storage/innobase/include/dict0mem.h \
+  ../../storage/innobase/include/data0type.h \
+  ../../storage/innobase/include/data0type.ic \
+  ../../storage/innobase/include/data0data.h \
+  ../../storage/innobase/include/data0types.h \
+  ../../storage/innobase/include/data0data.ic \
+  ../../storage/innobase/include/rem0types.h \
+  ../../storage/innobase/include/btr0types.h \
+  ../../storage/innobase/include/lock0types.h \
+  ../../storage/innobase/include/que0types.h \
+  ../../storage/innobase/include/dict0mem.ic \
+  ../../storage/innobase/include/dict0dict.h \
+  ../../storage/innobase/include/trx0types.h \
+  ../../storage/innobase/include/dict0dict.ic \
+  ../../storage/innobase/include/dict0load.h \
+  ../../storage/innobase/include/dict0load.ic \
+  ../../storage/innobase/include/trx0undo.h \
+  ../../storage/innobase/include/trx0sys.h \
+  ../../storage/innobase/include/read0types.h \
+  ../../storage/innobase/include/fsp0fsp.h \
+  ../../storage/innobase/include/fut0lst.h \
+  ../../storage/innobase/include/fut0lst.ic \
+  ../../storage/innobase/include/fut0fut.h \
+  ../../storage/innobase/include/fut0fut.ic \
+  ../../storage/innobase/include/mtr0log.h \
+  ../../storage/innobase/include/mtr0log.ic \
+  ../../storage/innobase/include/fsp0types.h \
+  ../../storage/innobase/include/fsp0fsp.ic \
+  ../../storage/innobase/include/trx0sys.ic \
+  ../../storage/innobase/include/srv0srv.h \
+  ../../storage/innobase/include/trx0trx.h \
+  ../../storage/innobase/include/usr0types.h \
+  ../../storage/innobase/include/trx0xa.h \
+  ../../storage/innobase/include/trx0trx.ic \
+  ../../storage/innobase/include/trx0undo.ic \
+  ../../storage/innobase/include/ibuf0ibuf.ic \
+  ../../storage/innobase/include/page0page.h \
+  ../../storage/innobase/include/rem0rec.h \
+  ../../storage/innobase/include/rem0rec.ic \
+  ../../storage/innobase/include/page0page.ic \
+  ../../storage/innobase/include/rem0cmp.h \
+  ../../storage/innobase/include/rem0cmp.ic \
+  ../../storage/innobase/include/log0recv.h \
+  ../../storage/innobase/include/log0log.h \
+  ../../storage/innobase/include/log0log.ic \
+  ../../storage/innobase/include/log0recv.ic \
+  ../../storage/innobase/include/trx0sys.h \
+  ../../storage/innobase/include/os0file.h \
+  ../../storage/innobase/include/srv0start.h
+
+../../storage/innobase/include/buf0rea.h:
+
+../../storage/innobase/include/univ.i:
+
+../../include/my_global.h:
+
+../../include/my_config.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/pthread.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/unistd.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/unistd.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_ssize_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_size_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_uid_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_gid_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pid_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_off_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_suseconds_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/gnu/4.1.2-vxworks-6.8/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.1.2/include-fixed/limits.h:
+
+/home/sfh/vx68_mysql/WindRiver68/gnu/4.1.2-vxworks-6.8/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.1.2/include-fixed/syslimits.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/limits.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxANSI.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxCpu.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxCpuX.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxCpuXp.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxCpuXf.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxArch.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/arch/i86/archI86.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/arch/i86/archI86Common.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxParams.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxTypesBase.h:
+
+/home/sfh/vx68_mysql/WindRiver68/gnu/4.1.2-vxworks-6.8/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.1.2/include/stddef.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/tool/gnu/limits.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/semLib.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/vxWorks.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/vxWorksCommon.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxTypes.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_cpuset_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_atomic_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_dev_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_ino_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_mode_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_nlink_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_blksize_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_blkcnt_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxTypesOld.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/e_vxTypesOld.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/types.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_attr_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_struct__Sched_param.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_struct__Timespec.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_time_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_clock_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_key_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_timer_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_clockid_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_cond_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxWind.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxWindCommon.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_condattr_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_mutex_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_mutexattr_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_key_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_pthread_once_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_BOOL.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_trace_attr_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_trace_id_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_trace_event_id_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_trace_event_set_t.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/tool/gnu/toolMacros.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/tool/common/private/toolMacrosP.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/semLibCommon.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/vxWorks.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/vwModNum.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/objLib.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/objLibCommon.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/vwModNum.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/objSysCall.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/semSysCall.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/time.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/yvals.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sched.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_struct_sched_param.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_struct_timespec.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/pthreadCommon.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/cdefs.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/stdio.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/stdlib.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/math.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/ymath.h:
+
+/home/sfh/vx68_mysql/WindRiver68/gnu/4.1.2-vxworks-6.8/x86-linux2/bin/../../lib/gcc/i586-wrs-vxworks/4.1.2/include/float.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/fenv.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/fcntl.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/fcntlcom.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/time.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_struct_timeval.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_struct_itimerval.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/select.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/signal.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sigevent.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sigeventCommon.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/base/b_union_sigval.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/errno.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/types/vxANSI.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/assert.h:
+
+../../include/my_compiler.h:
+
+../../include/my_attribute.h:
+
+../../include/my_dbug.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/wrn/coreip/sys/socket.h:
+
+../../include/my_pthread.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/sys/stat.h:
+
+../../include/config.h:
+
+../../storage/innobase/include/ut0dbg.h:
+
+../../storage/innobase/include/os0thread.h:
+
+../../storage/innobase/include/os0thread.ic:
+
+../../storage/innobase/include/ut0ut.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/ctype.h:
+
+../../storage/innobase/include/ut0ut.ic:
+
+../../storage/innobase/include/db0err.h:
+
+../../storage/innobase/include/buf0types.h:
+
+../../storage/innobase/include/fil0fil.h:
+
+../../storage/innobase/include/sync0rw.h:
+
+../../storage/innobase/include/ut0lst.h:
+
+../../storage/innobase/include/sync0sync.h:
+
+../../storage/innobase/include/sync0types.h:
+
+../../storage/innobase/include/ut0mem.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/string.h:
+
+../../storage/innobase/include/ut0mem.ic:
+
+../../storage/innobase/include/os0sync.h:
+
+../../storage/innobase/include/os0sync.ic:
+
+../../storage/innobase/include/sync0arr.h:
+
+../../storage/innobase/include/sync0arr.ic:
+
+../../storage/innobase/include/sync0sync.ic:
+
+../../storage/innobase/include/sync0rw.ic:
+
+../../storage/innobase/include/dict0types.h:
+
+../../storage/innobase/include/ibuf0types.h:
+
+../../storage/innobase/include/ut0byte.h:
+
+../../storage/innobase/include/ut0byte.ic:
+
+../../storage/innobase/include/os0file.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/dirent.h:
+
+../../storage/innobase/include/mtr0mtr.h:
+
+../../storage/innobase/include/mem0mem.h:
+
+../../storage/innobase/include/ut0rnd.h:
+
+../../storage/innobase/include/ut0rnd.ic:
+
+../../storage/innobase/include/mach0data.h:
+
+../../storage/innobase/include/mach0data.ic:
+
+../../storage/innobase/include/mem0dbg.h:
+
+../../storage/innobase/include/mem0mem.ic:
+
+../../storage/innobase/include/mem0dbg.ic:
+
+../../storage/innobase/include/mem0pool.h:
+
+../../storage/innobase/include/mem0pool.ic:
+
+../../storage/innobase/include/dyn0dyn.h:
+
+../../storage/innobase/include/dyn0dyn.ic:
+
+../../storage/innobase/include/mtr0types.h:
+
+../../storage/innobase/include/page0types.h:
+
+../../storage/innobase/include/mtr0mtr.ic:
+
+../../storage/innobase/include/buf0buf.h:
+
+../../storage/innobase/include/fil0fil.h:
+
+../../storage/innobase/include/hash0hash.h:
+
+../../storage/innobase/include/hash0hash.ic:
+
+../../storage/innobase/include/os0proc.h:
+
+../../storage/innobase/include/os0proc.ic:
+
+../../storage/innobase/include/buf0buf.ic:
+
+../../storage/innobase/include/buf0flu.h:
+
+../../storage/innobase/include/buf0flu.ic:
+
+../../storage/innobase/include/buf0buf.h:
+
+../../storage/innobase/include/mtr0mtr.h:
+
+../../storage/innobase/include/buf0lru.h:
+
+../../storage/innobase/include/buf0lru.ic:
+
+../../storage/innobase/include/buf0rea.h:
+
+../../storage/innobase/include/buf0flu.h:
+
+../../storage/innobase/include/buf0lru.h:
+
+../../storage/innobase/include/ibuf0ibuf.h:
+
+../../storage/innobase/include/dict0mem.h:
+
+../../storage/innobase/include/data0type.h:
+
+../../storage/innobase/include/data0type.ic:
+
+../../storage/innobase/include/data0data.h:
+
+../../storage/innobase/include/data0types.h:
+
+../../storage/innobase/include/data0data.ic:
+
+../../storage/innobase/include/rem0types.h:
+
+../../storage/innobase/include/btr0types.h:
+
+../../storage/innobase/include/lock0types.h:
+
+../../storage/innobase/include/que0types.h:
+
+../../storage/innobase/include/dict0mem.ic:
+
+../../storage/innobase/include/dict0dict.h:
+
+../../storage/innobase/include/trx0types.h:
+
+../../storage/innobase/include/dict0dict.ic:
+
+../../storage/innobase/include/dict0load.h:
+
+../../storage/innobase/include/dict0load.ic:
+
+../../storage/innobase/include/trx0undo.h:
+
+../../storage/innobase/include/trx0sys.h:
+
+../../storage/innobase/include/read0types.h:
+
+../../storage/innobase/include/fsp0fsp.h:
+
+../../storage/innobase/include/fut0lst.h:
+
+../../storage/innobase/include/fut0lst.ic:
+
+../../storage/innobase/include/fut0fut.h:
+
+../../storage/innobase/include/fut0fut.ic:
+
+../../storage/innobase/include/mtr0log.h:
+
+../../storage/innobase/include/mtr0log.ic:
+
+../../storage/innobase/include/fsp0types.h:
+
+../../storage/innobase/include/fsp0fsp.ic:
+
+../../storage/innobase/include/trx0sys.ic:
+
+../../storage/innobase/include/srv0srv.h:
+
+../../storage/innobase/include/trx0trx.h:
+
+../../storage/innobase/include/usr0types.h:
+
+../../storage/innobase/include/trx0xa.h:
+
+../../storage/innobase/include/trx0trx.ic:
+
+../../storage/innobase/include/trx0undo.ic:
+
+../../storage/innobase/include/ibuf0ibuf.ic:
+
+../../storage/innobase/include/page0page.h:
+
+../../storage/innobase/include/rem0rec.h:
+
+../../storage/innobase/include/rem0rec.ic:
+
+../../storage/innobase/include/page0page.ic:
+
+../../storage/innobase/include/rem0cmp.h:
+
+../../storage/innobase/include/rem0cmp.ic:
+
+../../storage/innobase/include/log0recv.h:
+
+../../storage/innobase/include/log0log.h:
+
+../../storage/innobase/include/log0log.ic:
+
+../../storage/innobase/include/log0recv.ic:
+
+../../storage/innobase/include/trx0sys.h:
+
+../../storage/innobase/include/os0file.h:
+
+../../storage/innobase/include/srv0start.h:

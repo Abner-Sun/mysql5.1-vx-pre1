@@ -1,0 +1,10 @@
+split.o split.o: split.c \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/stdio.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/yvals.h \
+  /home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/string.h
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/stdio.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/yvals.h:
+
+/home/sfh/vx68_mysql/WindRiver68/vxworks-6.8/target/usr/h/string.h:
